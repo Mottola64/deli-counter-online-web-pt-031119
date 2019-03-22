@@ -19,7 +19,7 @@ end
 def now_serving(katz_deli)
   if katz_deli.count == 0
     puts "There is nobody waiting to be served!"
-  else
+  elsif
     next_customer = katz_deli.shift
     phrase = "Currently serving #{next_customer}."
     puts phrase
