@@ -1,7 +1,7 @@
 katz_deli = []
 
-def line(customer_array)
-  if customer_array.count == 0
+def line(katz_deli)
+  if katz_deli.count == 0
     puts "The line is currently empty."
   else
     phrase = "The line is currently:"
