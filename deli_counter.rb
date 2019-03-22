@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     phrase = "The line is currently:"
-    customer_array.each_with_index { |customer, index| phrase +=" #{index+1}. #{customer}"}
+    katz_deli.each_with_index { |customer, index| phrase +=" #{index+1}. #{customer}"}
     puts phrase
   end
 end
