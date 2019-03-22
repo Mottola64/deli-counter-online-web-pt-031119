@@ -9,3 +9,9 @@ def line(katz_deli)
   end
 end
 end
+
+def line(line)
+ print "The line is currently: "
+ line.each_with_index do |person, index|
+   print "#{index+1}. #{person} "
+ end
