@@ -11,6 +11,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, customer)
-  katz_deli << customer
-  puts katz_deli.length
+katz_deli << customer
+place_in_line = katz_deli.find_index(customer)
+puts "Welcome, #{customer}. You are number #{place_in_line + 1} in line."
 end
